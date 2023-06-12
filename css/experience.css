@@ -1,0 +1,30 @@
+/* Experience Page */
+
+#experience {
+    padding: 20px;
+    text-align: center;
+}
+
+#experience h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-item {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.experience-item p {
+    margin-top: 10px;
+}

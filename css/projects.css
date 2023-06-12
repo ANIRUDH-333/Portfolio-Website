@@ -1,0 +1,40 @@
+/* Projects Page */
+
+#projects {
+    padding: 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project-item a {
+    color: #333; /* or any color you like */
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    color: #0077b5; /* or any hover color you like */
+    text-decoration: underline;
+}
+
+.project-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.project-item p {
+    margin-top: 10px;
+}

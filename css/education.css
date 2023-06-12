@@ -1,0 +1,30 @@
+/* Education Page */
+
+#education {
+    padding: 20px;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education-item {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.education-item h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.education-item p {
+    margin-top: 10px;
+}

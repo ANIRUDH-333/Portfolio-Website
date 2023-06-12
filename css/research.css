@@ -1,0 +1,40 @@
+/* Research Page */
+
+#research {
+    padding: 20px;
+    text-align: center;
+}
+
+#research h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#research ul {
+    list-style: none;
+    padding: 0;
+}
+
+.research-item {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.research-item a {
+    color: #333; /* or any color you like */
+    text-decoration: none;
+}
+
+.research-item a:hover {
+    color: #0077b5; /* or any hover color you like */
+    text-decoration: underline;
+}
+
+.research-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.research-item p {
+    margin-top: 10px;
+}
