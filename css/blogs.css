@@ -1,22 +1,23 @@
 /* Articles */
-.articles {
+
+#articles {
     padding: 20px;
     text-align: center;
 }
 
-.articles h2 {
+#articles h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.articles ul {
+#articles ul {
     list-style: none;
     padding: 0;
 }
 
 .article {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .article a {

@@ -28,3 +28,13 @@
 .education-item p {
     margin-top: 10px;
 }
+
+.achievements {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.education-item h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
