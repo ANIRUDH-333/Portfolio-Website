@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Experience</title>
@@ -11,37 +14,57 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="education.html" target="_self">Education</a></li>
-            <li><a href="articles.html" target="_self">Blogs</a></li>
-            <li><a href="research.html" target="_self">Research</a></li>
-            <li><a href="projects.html" target="_self">Projects</a></li>
-            <li><a href="experience.html" target="_self">Experience</a></li>
-        </ul>
-    </nav>
+    <div id="navbar"></div>
+
 
     
     <section id="experience">
         <h2>Professional Experience</h2>
         <ul>
             <li class="experience-item">
-                <h3>Job Title at Company 1</h3>
-                <p>Location</p>
-                <p>Start Date - End Date</p>
-                <p>Description of your role and accomplishments at Company 1.</p>
+                <h3>AI Developer Intern</h3>
+                <h4>Gurukul Bytes, Noida</h4>
+                <p>19th October, 2022 - 28th December, 2022 - <b> 2 months</b></p>
+                <p><ul style="list-style-type:circle">
+                    <li>
+                        Developed a use-case chatbot using Rasa framework and trained the model on intents, rules and stories.
+                    </li>
+                    <li>
+                        Designed and implemented the chatbot's conversational flow. Tested and refined its performance
+                    </li>
+                </ul></p>
             </li>
+
             <li class="experience-item">
-                <h3>Job Title at Company 2</h3>
-                <p>Location</p>
-                <p>Start Date - End Date</p>
-                <p>Description of your role and accomplishments at Company 2.</p>
+                <h3>Machine Learning Intern</h3>
+                <h4>Duddub, Bengaluru</h4>
+                <p>1st December, 2021 - 12th April, 2022 - <b>4 months</b></p>
+                <p><ul style="list-style-type:circle">
+                    <li>
+                        Worked on audio processing projects with emphasis on speaker diarization and
+silence detection.
+                    </li>
+                    <li>
+                        Created a dataset and fine-tuned the model to enhance the accuracy and optimize
+the outcome.
+
+                    </li>
+
+                    <li>
+                        Written python scripts to detect silence and mark the time stamps for accurate text
+                        embeddings to speech.
+                        
+                    </li>
+
+                    <li>
+                        In addition, used web scrapping to gather and process text data from newspapers to
+enhance the efficiency of TTS model.
+                    </li>
+                </ul></p>
             </li>
-            <!-- Add more experience items in the same format -->
         </ul>
     </section>
-
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

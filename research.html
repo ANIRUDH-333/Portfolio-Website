@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+        <!-- Include jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Research</title>
@@ -11,37 +14,54 @@
 
 <body>
     <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="education.html" target="_self">Education</a></li>
-            <li><a href="articles.html" target="_self">Blogs</a></li>
-            <li><a href="research.html" target="_self">Research</a></li>
-            <li><a href="projects.html" target="_self">Projects</a></li>
-            <li><a href="experience.html" target="_self">Experience</a></li>
-        </ul>
-    </nav>
+    <div id="navbar"></div>
+
 
     
     <section id="research">
         <h2>Research</h2>
         <ul>
             <li class="research-item">
-                <a href="https://link-to-your-research-paper-1" target="_blank">
-                    <h3>First paper on DMD</h3>
+                <!-- <a href="https://link-to-your-research-paper-1" target="_blank"> -->
+                    <h3>DMD-CGR: Dynamic Mode Decomposition-based Novel Features for DNA sequence classification</h3>
+                    <h4>Accepted on 19th May, 2023</h4>
+                    <p><b>Abstract : </b>
+                        Accurate classification and analysis of pathogenic organisms are essential for understanding the evolutionary relationships between different viruses, as well as for developing effective treatments and preventive measures. In this paper, we propose the use of machine learning models for pathogen classification, specifically for classifying a novel pathogen at a genus level. We propose a novel feature extraction technique called Dynamic Coherent Features through Progressive Rank Approximations (DCFPRA) for extracting relevant features from genomic sequences. We then evaluate the performance of several machine learning algorithms, including Support Vector Machines (SVM), and K-Nearest Neighbours (KNN), using these features. Our results demonstrate that machine learning models trained on DCFPRA features outperform traditional alignment-based methods for pathogen classification. Furthermore, our proposed method is computationally efficient and can handle large-scale datasets, making it a valuable tool for future research in pathogen classification.
+                </p>
                 </a>
-                <p>Brief summary or abstract of research paper 1.</p>
             </li>
             <li class="research-item">
-                <a href="https://link-to-your-research-paper-2" target="_blank">
-                    <h3>Title of your research paper 2</h3>
+                <!-- <a href="https://link-to-your-research-paper-1" target="_blank"> -->
+                    <h3>Effect of Data Quality on Water Body Segmentation with DeepLabV3+ Algorithm</h3>
+                    <h4>Accepted on 18th May, 2023</h4>
+                    <p><b>Abstract : </b>
+                        Training Deep Learning (DL) algorithms for segmenting features require hundreds to thousands of input data and corresponding labels. Generating thousands of input images and labels requires considerable resources and time. Hence, it is common practice to use open-source imagery data and labels available online. Most of these open-source data have little or no metadata describing their quality or suitability making it problematic for training or evaluating DL models. This study evaluated the effect of data quality on training DeepLabV3+, using Sentinel 2 A/B RGB images and labels obtained from Kaggle. We generated subsets of 256 x 256 pixels, and 10\% of these images (802) were set aside for testing. First, we trained and validated the DeepLabV3+ model with the remaining images. Second, we removed images with incorrect labels and trained another DeepLabV3+ network. Finally, we trained the third DeepLabV3+ network after removing images with turbid water or with floating vegetation. All three trained models were evaluated with test images and then we calculated accuracy metrics. As the quality of the input images improved, accuracy of the predicted masks generated from the first model increased from 92.8\% to 94.3\% in the second model. The third model’s accuracy was 96.4\%, demonstrating the network’s ability to better learn and predict water bodies when the input data had fewer class variations. Based on the results we recommend assessing the quality of open-source data for incorrect labels and variations in the target class prior to training DeepLabV3+ or any other DL network.
+                    </p>
                 </a>
-                <p>Brief summary or abstract of research paper 2.</p>
             </li>
             <!-- Add more research items in the same format -->
+            <li class="research-item">
+                <!-- <a href="https://link-to-your-research-paper-1" target="_blank"> -->
+                    <h3>An Informal Introduction to Semirings for GraphBLAS using Matlab</h3>
+                    <h4>Accepted on 20th April, 2023</h4>
+                    <p><b>Abstract : </b>
+                        This paper presents an informal introduction to semirings and their application in GraphBLAS using Matlab. GraphBLAS is a powerful and versatile tool for working with graph algorithms and linear algebra, and its use in education is also discussed. The paper simplifies the mathematical complexity typically associated with semirings and provides an accessible entry point for those who are new to the field of GraphBLAS. The use of Matlab as a tool for implementing GraphBLAS is also highlighted, making it user-friendly and easy to understand. Overall, this paper serves as a useful starting point for anyone interested in learning more about GraphBLAS and its potential applications.
+                    </p>
+                </a>
+            </li>
+
+            <li class="research-item">
+                <!-- <a href="https://link-to-your-research-paper-1" target="_blank"> -->
+                    <h3>Investigating the Significance of Special Measurement Matrices for DMD based Frequency Estimation</h3>
+                    <h4>Accepted on 29th Nov, 2022</h4>
+                    <p><b>Abstract : </b>
+                        Power systems are prone to failures such as power quality tripping, resonance, and CMV failures. These failures are infinite and dynamic because of the fluctuations in the power system impedance together with its load demand and harmonic distortions. To have stability and control over the power system together with a quality power supply, it is imperative to monitor the fundamental frequency. Motivated by this, a data-driven approach based on dynamic mode decomposition (DMD) is proposed which is essential to observe parameters such as frequency and amplitude. This methodology works well for extracting fundamental frequency under harmonics, sub-harmonics, and inter-harmonics scenarios in the signal which causes considerable damage to end-user equipment if not monitored properly. In this methodology, appended time-shifted power signals stacked into a measurement matrix are used for extracting the parameters from the signal. DMD relies on dynamics to capture information and predict frequencies. Measurement matrices play a crucial role in identifying the underlying dynamics of the system. Thus it creates a suitable measurement matrix and gives us input to the data-driven system which is vital for the system to perform well.  This study investigates the importance of different special matrices such as Hankel, Toeplitz, and Circulant to create the measurement matrices in DMD to extract the signal parameters. DMD can replace conventional Fourier-based techniques by reducing the estimation error percentage. Various experiments are conducted to confirm the potentiality of the proposed methodology. 
+                    </p>
+                </a>
+            </li>
         </ul>
     </section>
-
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

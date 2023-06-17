@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!-- Include jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Articles</title>
@@ -9,36 +12,71 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="education.html" target="_self">Education</a></li>
-            <li><a href="articles.html" target="_self">Blogs</a></li>
-            <li><a href="research.html" target="_self">Research</a></li>
-            <li><a href="projects.html" target="_self">Projects</a></li>
-            <li><a href="experience.html" target="_self">Experience</a></li>
-        </ul>
-    </nav>
+    <div id="navbar"></div>
+
 
     
     <section id="articles">
         <h2>Blogs</h2>
         <ul>
             <li class="article">
-                <a href="https://link-to-your-article-1" target="_blank">
-                    <h3>Title of your article 1</h3>
+                <a href="https://iq.opengenus.org/multi-layer-perceptron/" target="_blank">
+                    <h3>Multi-Layer Perceptron (MLP): A Basic Understanding</h3>
                 </a>
-                <p>Brief summary or description of article 1.</p>
+                <p>Multi Layer Perceptron (MLP) is a type of artificial neural network that is widely used for various machine learning tasks such as classification and regression. It is called a multi-layered perceptron because it has many layers of nodes (known as artificial neurons) that connect to each other. In this article, we will explore the main features and components of MLP, its architectural and training processes, and its programs in various fields.</p>
             </li>
+
             <li class="article">
-                <a href="https://link-to-your-article-2" target="_blank">
-                    <h3>Title of your article 2</h3>
+                <a href="https://iq.opengenus.org/layer-normalization/" target="_blank">
+                    <h3>Layer Normalization: An Essential Technique for Deep Learning Beginners</h3>
                 </a>
-                <p>Brief summary or description of article 2.</p>
+                <p>Deep learning has become one of the most powerful machine learning techniques in recent years. Neural networks are at the heart of deep learning and have shown great performance in various tasks, such as image recognition, speech recognition, and natural language processing. However, training neural networks can be challenging due to issues such as vanishing gradients and overfitting. To address these challenges, normalization techniques have been developed, one of which is layer normalization.</p>
             </li>
             <!-- Add more articles in the same format -->
+
+            <li class="article">
+                <a href="https://iq.opengenus.org/resilient-backpropagation/" target="_blank">
+                    <h3>Resilient Backpropagation (Rprop): The Robust Optimization Algorithm for Training Deep Neural Networks</h3>
+                </a>
+                <p>Resilient Backpropagation (Rprop) is a popular optimization algorithm used in training artificial neural networks. The algorithm was first introduced by Martin Riedmiller and Heinrich Braun in 1993 and has since been widely adopted due to its effectiveness in training deep neural networks.</p>
+            </li>
+
+            <li class="article">
+                <a href="https://iq.opengenus.org/policy-gradient-in-rl/" target="_blank">
+                    <h3>Policy Gradient in RL</h3>
+                </a>
+                <p>Reinforcement learning (RL) is a field of machine learning that is concerned with learning how to make decisions by observing the environment and receiving feedback in the form of rewards or penalties. Policy gradient is a popular approach in RL that is used to learn a policy function that maps states to actions, by directly optimizing the expected return of the policy.</p>
+            </li>
+
+            <li class="article">
+                <a href="https://iq.opengenus.org/reinforcement-learning-key-terms/" target="_blank">
+                    <h3>50+ Reinforcement Learning Key Terms: Understanding the Language of RL</h3>
+                </a>
+                <p>In this article, we have covered 50+ Key Terms in the domain of Reinforcement Learning. This will give a strong hold on RL.</p>
+            </li>
+
+            <li class="article">
+                <a href="https://iq.opengenus.org/exploration-exploitation-dilemma/" target="_blank">
+                    <h3>Exploration-Exploitation Dilemma</h3>
+                </a>
+                <p>The exploration-exploitation dilemma is a concept that describes the challenge of deciding between exploring new options or exploiting already known options to maximize rewards. This dilemma arises in many situations where there is uncertainty about the quality or payoff of different options. In this article, we will explore this concept in detail and discuss its significance in various fields.</p>
+            </li>
+
+            <li class="article">
+                <a href="https://iq.opengenus.org/dmd/" target="_blank">
+                    <h3>Dynamic Mode Decomposition (DMD): An Overview of the Mathematical Technique and Its Applications</h3>
+                </a>
+                <p>Dynamic Mode Decomposition (DMD) is a data-driven method used to analyze and extract dynamic behavior from high-dimensional data sets. It is a powerful tool for studying fluid dynamics, image processing, and other complex systems. DMD is based on the Singular Value Decomposition (SVD) of a data matrix, and it provides a low-dimensional approximation of the original system.</p>
+            </li>
+
+            <li class="article">
+                <a href="https://iq.opengenus.org/prompt-engineering/" target="_blank">
+                    <h3>Tuning Your AI: The Emergent Field of Prompt Engineering</h3>
+                </a>
+                <p>Prompt engineering is an exciting and rapidly evolving field in the world of artificial intelligence (AI). It is the process of designing, testing, and optimizing inputs, or "prompts," to instruct AI models to generate desired outputs.</p>
+            </li>
         </ul>
     </section>
-
+    <script src="js/scripts.js"></script>
 </body>
 </html>
